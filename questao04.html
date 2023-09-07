@@ -14,13 +14,82 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 04</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário de login da questão anterior, substituindo, onde possível, os campos tradicionais por campos com título flutuante.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário de login da
+            questão anterior, substituindo, onde possível, os campos tradicionais por campos com título flutuante.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
     <div class="container">
 
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <h1>Login</h1>
+                <hr>
+            </div>
+
+            
+           
+
+            <form>
+
+                <div class="row justify-content-center  form-floating ">
+                  
+                    <div class="col-4 mb-3">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" placeholder="Usuário (E-mail)">
+                            <label for="floatingPassword">Usuário (E-mail)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-4 mb-3">
+                        <div class="form-floating">
+                            <input type="senha" class="form-control" id="senha" placeholder="Senha">
+                            <label for="floatingPassword">Senha</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="form-group col-4">
+                        <label for="perfil">Perfil.</label>
+                        <select id="perfil" class="form-control">
+                            <option selected>Selecione um perfil...</option>
+                            <option>Administrador</option>
+                            <option>Gerente</option>
+                            <option>Usuário</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="form-group col-4 mt-3">
+                        <div class="form-switch">
+                            <input class="form-check-input" type="checkbox" id="lembradeMim">
+                            <label class="form-check-label" for="lembradeMim">
+                                Lembrar de mim
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center  mb-3">
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary m-3">Entrar</button>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-3">
+                    <div class="col-4">
+                        <a href="#" class="text-decoration-none text-primary">Esqueci minha senha.</a>
+                        <div class="clo-4">
+                            <a href="#" class="text-decoration-none text-primary">Quero me cadastrar.</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
     </div>
 </body>
 
