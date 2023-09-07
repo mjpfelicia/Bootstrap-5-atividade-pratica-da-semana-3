@@ -15,13 +15,75 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 06</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, faça o mesmo formulário da questão 3, porém, com leiaute horizontal.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, faça o mesmo formulário da questão 3,
+            porém, com leiaute horizontal.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
-    <div class="container">
 
+    <div class="container p-5">
+
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1>Login</h1>
+                <hr>
+            </div>
+
+            <form>
+
+                <div class="row justify-content-center">
+                    <label for="email" class="col-2 text-end">Usuário (E-mail)</label>
+                    <div class="col-8 mb-3">
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <label for="senha" class="col-2 text-end">Senha</label>
+                    <div class="col-8 mb-3">
+                        <input type="pa" class="form-control" id="senha">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <label for="perfil" class="col-2 text-end">Perfil.</label>
+                    <div class="form-group col-8">
+                        <select id="perfil" class="form-control">
+                            <option selected>Selecione um perfil...</option>
+                            <option>Administrador</option>
+                            <option>Gerente</option>
+                            <option>Usuário</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="form-group col-8 mt-3">
+                        <div class="form-switch">
+                            <input class="form-check-input" type="checkbox" id="lembradeMim">
+                            <label class="form-check-label" for="lembradeMim">
+                                Lembrar de mim
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center  mb-3">
+                    <div class="col-8">
+                        <button type="submit" class="btn btn-primary m-3">Entrar</button>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-3">
+                    <div class="col-8">
+                        <a href="#" class="text-decoration-none text-primary">Esqueci minha senha.</a>
+                        <div class="clo-8">
+                            <a href="#" class="text-decoration-none text-primary">Quero me cadastrar.</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
     </div>
 </body>
 
