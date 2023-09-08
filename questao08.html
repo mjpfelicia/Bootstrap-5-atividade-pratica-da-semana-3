@@ -15,12 +15,71 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 08</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7 para que todos os seus campos fiquem com títulos flutuantes.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7
+            para que todos os seus campos fiquem com títulos flutuantes.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
-    <div class="container">
+    <div class="container p-5">
+
+
+        <div>
+            <div>
+                <h1 class="display-3">Cadastro de Cliente</h1>
+                <hr>
+            </div>
+        </div>
+
+
+
+
+
+        <form class="row justify-content-center">
+
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nome" placeholder="nome">
+                <label for="nome" class="mx-3">Nome Completo</label>
+            </div>
+
+            <div class="row mb-3 p-0">
+                <div class="col-sm-12 col-lg-4 mb-3">
+                    <div class="form-group form-floating">
+                        <input type="text" class="form-control" id="cpf" placeholder="nome">
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="cpf" class="form-label">CPF</label>
+                                             </div>
+
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-3">
+                    <div class="form-group form-floating">
+                        <input type="date" class="form-control" id="data">
+                        <label for="data" class="form-label">Data de Nascimento</label>
+                    </div>
+                </div>
+
+                <div class="form-floating col-sm-12 col-lg-4 mb-3">
+                    <select class="form-select" id="Select">
+                        <option selected>Selecione o Gênero</option>
+                        <option value="1">Feminino</option>
+                        <option value="2">Masculino</option>
+                    </select>
+                    <label for="Select" class="mx-3">Gênero</label>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Endereço Completo" id="Textarea"></textarea>
+                    <label for="Textarea">Endereço Completo</label>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
 
     </div>
 </body>
