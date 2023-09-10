@@ -20,8 +20,9 @@
 
 ## Links usados:
 
-- https://developer.mozilla.org/en-US/docs/Learn/CSS
-- https://www.youtube.com/watch?v=mThw9Z9kgHg&t=62s
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+- https://www.youtube.com/watch?v=YAT_lkd09XU&t=4s
+- https://getbootstrap.com/docs/5.0/forms/overview/
 
 
 
