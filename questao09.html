@@ -15,12 +15,87 @@
     <div class="container my-3">
         <p><a href="index.html">Voltar ao Índice</a></p>
         <h1 class="display-2">Questão 09</h1>
-        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7 adicionando complementos com ícones sugestivos a todos os campos e substituindo os títulos (labels) por placeholders. Defina tamanho grande para todos os campos e botões e ajuste a responsividade do formulário para nenhum campo ficar mal acomodado.</p>
+        <p class="lead">Usando somente estilos baseados em classes do Bootstrap 5, aprimore o formulário da questão 7
+            adicionando complementos com ícones sugestivos a todos os campos e substituindo os títulos (labels) por
+            placeholders. Defina tamanho grande para todos os campos e botões e ajuste a responsividade do formulário
+            para nenhum campo ficar mal acomodado.</p>
         <hr>
     </div>
     <!-- Valor: 1.5 pontos -->
     <!-- FAZER AQUI -->
-    <div class="container">
+    <div class="container p-5">
+
+        <div>
+            <div>
+                <h1 class="display-3">Cadastro de Cliente</h1>
+                <hr>
+            </div>
+        </div>
+
+        <form class="row justify-content-center">
+
+            <div class="row p-0">
+                <div class="col-12 mb-3">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="email">
+                            <i class="bi bi-person"></i>
+                        </span>
+                        <input type="text" class="form-control  form-control-lg" placeholder="Nome Completo">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center p-0">
+
+                <div class="col-4 col-sm-12 col-lg-4 mb-3  p-0">
+                    <div class="input-group  form-control-lg flex-nowrap">
+                        <span class="input-group-text" id="CPF">
+                            <i class="bi bi-file-person"></i>
+                        </span>
+                        <input type="text" class="form-control form-control-lg" placeholder="CPF">
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-lg-4 mb-3  p-0">
+                    <div class="input-group  form-control-lg flex-nowrap">
+                        <span class="input-group-text" id="dtNascimentio">
+                            <i class="bi bi-calendar3"></i>
+                        </span>
+                        <input type="date" class="form-control form-control-lg" id="dtNascimentio"
+                            placeholder="Data de Nascimento">
+
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-lg-4 mb-3  p-0">
+                    <div class="input-group form-control-lg flex-nowrap">
+                        <span class="input-group-text" id="genero">
+                            <i class="bi bi-gender-trans"></i>
+                        </span>
+
+                        <select class="form-select form-control-lg" id="Select">
+                            <option selected>Gênero</option>
+                            <option value="1">Feminino</option>
+                            <option value="2">Masculino</option>
+                            <option value="2">Outros</option>
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3  p-0">
+
+                <div class="input-group form-control-lg flex-nowrap">
+                    <span class="input-group-text" id="enderecoCompleto">
+                        <i class="bi bi-house-gear-fill"></i>
+                    </span>
+                    <textarea class="form-control" placeholder="Endereço Completo"
+                        id="Textarea"></textarea>
+
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
 
     </div>
 </body>
