@@ -24,7 +24,7 @@
 
     <div class="container p-5">
 
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-12 text-center">
                 <h1 class="display-3">Login</h1>
                 <hr>
@@ -32,22 +32,22 @@
 
             <form>
 
-                <div class="row justify-content-center">
-                    <label for="email" class="col-2 text-end">Usuário(E-mail)</label>
+                <div class="row">
+                    <label for="email" class="col-4 text-end">Usuário(E-mail)</label>
                     <div class="col-8 mb-3">
                         <input type="email" class="form-control" id="email">
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
-                    <label for="senha" class="col-2 text-end">Senha</label>
+                <div class="row">
+                    <label for="senha" class="col-4 text-end">Senha</label>
                     <div class="col-8 mb-3">
                         <input type="pa" class="form-control" id="senha">
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
-                    <label for="perfil" class="col-2 text-end">Perfil</label>
+                <div class="row mb-3">
+                    <label for="perfil" class="col-4 text-end">Perfil</label>
                     <div class="form-group col-8">
                         <select id="perfil" class="form-control">
                             <option selected>Selecione um perfil...</option>
@@ -58,8 +58,9 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="form-group col-6 mt-3">
+                <div class="row mb-3">
+                    <div class="col-4"></div>
+                    <div class="form-group col-8">
                         <div class="form-switch">
                             <input class="form-check-input" type="checkbox" id="lembradeMim">
                             <label class="form-check-label" for="lembradeMim">
@@ -68,15 +69,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center  mb-3">
-                    <div class="col-6">
-                        <button type="submit" class=" btn  btn-primary m-3">Entrar</button>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <button type="submit" class="btn btn-primary mb-3">Entrar</button>
                     </div>
                 </div>
-                <div class="row justify-content-center mb-3">
-                    <div class="col-6">
-                        <a href="#" class="text-decoration-none text-primary">Esqueci minha senha.</a>
-                        <div class="clo-6">
+                <div class="row mb-3">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <div>
+                            <a href="#" class="text-decoration-none text-primary">Esqueci minha senha.</a>
+                        </div>
+                        <div>
                             <a href="#" class="text-decoration-none text-primary">Quero me cadastrar.</a>
                         </div>
                     </div>
